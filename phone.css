@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* css variable */
+:root{
+    --navbar-height: 150px;
+}
+/* nav */
+.navbar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: var(--navbar-height);
+}
+.navbar ul{
+    position: static;
+}
+.navbar p{
+   display: none;
+}
+/* home */
+.home::before{
+    height: 520px;
+}
+.home h1{
+    margin-top: 200px;
+    font-size: 30px;
+}
+.home p{
+    font-size: 20px;
+}
+
+/* services */
+.services{
+    flex-direction: column;
+}
+.services .box{
+    width: auto;
+    padding: 0;
+}
+/* client */
+.clients{
+    overflow: hidden;
+    /* flex-direction: column; */
+}
+.clients img{
+    width: 200px;
+}
+/* contact */
+.contact{
+    overflow: hidden;
+}
+/* footer */
